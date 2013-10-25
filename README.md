@@ -1,9 +1,14 @@
 mongoose-shortid
 ================
 
-**This fork was just intended to test a method without the need of bignum. With the standard mongoose-shortid my Node process exit with a strange exit code, and I suspect bignum to be part of the problem.**
+## Why this fork ?
 
-**Confirmed ! With this modified version of mongoose-shortid my Node process don't crash. Bignum seems to be the problem.**
+This fork was just intended to test a method without the need of bignum. With the standard mongoose-shortid my Node process exit with a strange exit code, and I suspect bignum to be part of the problem.
+
+Confirmed ! With this modified version of mongoose-shortid my Node process don't crash.
+If you had problems with the original too, you can include this one like this in your `package.json` file : `"mongoose-shortid": "https://github.com/leeroybrun/mongoose-shortid/tarball/master"`. Then do a `npm update` to grab this modified version. I will maybe make a separate module later, but for now this just works fine.
+
+## Original README
 
 This plugin provides a new Schema Type, ShortId, that can be used in place of ObjectId. The generated IDs are random url-safe strings of configurable length, represented in a configurable base (10, 16, 32, 36, 62, 64 only).
 
