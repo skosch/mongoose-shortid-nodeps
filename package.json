@@ -24,9 +24,6 @@
   "keywords": [
     "mongoose"
   ],
-  "dependencies": {
-    "bignum": "~0.6.1"
-  },
   "peerDependencies": {
     "mongoose": ">= 3.5.0 < 4"
   },
