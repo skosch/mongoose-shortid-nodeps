@@ -3,6 +3,8 @@ mongoose-shortid
 
 **This fork was just intended to test a method without the need of bignum. With the standard mongoose-shortid my Node process exit with a strange exit code, and I suspect bignum to be part of the problem.**
 
+**Confirmed ! With this modified version of mongoose-shortid my Node process don't crash. Bignum seems to be the problem.**
+
 This plugin provides a new Schema Type, ShortId, that can be used in place of ObjectId. The generated IDs are random url-safe strings of configurable length, represented in a configurable base (10, 16, 32, 36, 62, 64 only).
 
 This plugin will automatically retry inserts on a collision.
