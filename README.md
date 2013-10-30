@@ -101,3 +101,5 @@ var exampleSchema = mongoose.Schema({
 });
 
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/leeroybrun/mongoose-shortid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
