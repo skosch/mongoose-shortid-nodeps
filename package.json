@@ -1,7 +1,7 @@
 {
-  "name": "mongoose-shortid",
-  "description": "Short Ids for mongoose",
-  "author": "Jason Choy <jjwchoy@gmail.com>",
+  "name": "mongoose-shortid-nodeps",
+  "description": "Short Ids for mongoose, with no dependencies",
+  "author": "Leeroy Brun <leeroy.brun@gmail.com>",
   "version": "0.5.2",
   "contributors": [
     {
@@ -11,6 +11,10 @@
     {
       "name": "John Papandriopoulos",
       "email": "jpap@snappylabs.com"
+    },
+    {
+      "name": "Leeroy Brun",
+      "email": "leeroy.brun@gmail.com"
     }
   ],
   "main": "./index.js",
@@ -19,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jjwchoy/mongoose-shortid"
+    "url": "https://github.com/leeroybrun/mongoose-shortid-nodeps"
   },
   "keywords": [
     "mongoose"
