@@ -1,12 +1,11 @@
-mongoose-shortid
+mongoose-shortid-nodeps
 ================
 
 ## Why this fork ?
 
-This fork was just intended to test a method without the need of bignum. With the standard mongoose-shortid my Node process exit with a strange exit code, and I suspect bignum to be part of the problem.
+This module was originally written by [Jason Choy](https://github.com/jjwchoy).
 
-Confirmed ! With this modified version of mongoose-shortid my Node process don't crash.
-If you had problems with the original too, you can include this one like this in your `package.json` file : `"mongoose-shortid": "https://github.com/leeroybrun/mongoose-shortid/tarball/master"`. Then do a `npm update` to grab this modified version. I will maybe make a separate module later, but for now this just works fine.
+I just removed the bignum dependency to have a more light and portable module.
 
 ## Original README
 
