@@ -29,7 +29,7 @@
     "mongoose"
   ],
   "peerDependencies": {
-    "mongoose": ">= 3.5.0 < 4"
+    "mongoose": ">= 3.5.0 < 4.1.0"
   },
   "license": "MIT"
 }
